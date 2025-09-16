@@ -1,0 +1,37 @@
+@startuml
+hide footbox
+
+actor       ユーザ       as A
+boundary    システムメニュー    as B1
+boundary    時刻入力画面    as B2
+control     時刻設定     as C
+entity      Robodog      as E
+boundary    挨拶表示画面    as B3
+
+'時系列①
+activate A
+A -> B1: 時間に応じた挨拶を選択()
+activate B1
+B1 -> B2: 表示()
+activate B2
+
+deactivate B2
+deactivate B1
+deactivate A
+
+'時系列②
+A -> B2: 時刻を入力する()
+activate A
+activate B2
+B2 -> C: 起動()
+activate C
+C -> E: 時刻の設定()
+activate E
+C <-- E: 挨拶を返す()
+deactivate E
+C -> B3: 挨拶の表示()
+activate B3
+
+deactivate B2
+deactivate A
+@enduml
