@@ -1,0 +1,15 @@
+@startuml 
+skinparam componentStyle rectangle
+
+[ユーザ] o-- [ユーザID]
+[ユーザ] o-- [パスワード]
+[ユーザ] o-- [名前]
+[ユーザ] o-- [学校名]
+[ユーザ] o-- [所属名]
+[ユーザ] o-- [メールアドレス]
+[ユーザ] o-- [電話番号]
+
+[Webページ] o-- [ユーザ]
+
+
+@enduml
