@@ -1,0 +1,31 @@
+@startuml 訪問者システム新規登録シーケンス図
+hide footbox
+skinparam boundaryBackgroundColor #D5E8D4
+skinparam controlBackgroundColor  #F8CECC
+skinparam entityBackgroundColor   #DAE8FC
+
+actor ユーザー as A
+boundary 新規登録画面 as B1
+control 新規登録 as C1
+entity 訪問者 as E
+boundary 登録完了画面 as B2
+boundary 登録エラー発生画面 as B3
+
+
+A -> B1: 「新規登録」を選択()
+activate B1
+
+B1 -> C1: 起動()
+deactivate B1
+
+C1 -> E: 新規登録()
+activate C1
+E --> C1:
+deactivate E
+
+C1 -> B2: 表示()
+activate B2
+C1 -> B3: エラー発生時表示()
+activate B3
+
+@enduml
