@@ -1,0 +1,20 @@
+@startuml 訪問者クラス図
+skinparam classAttributeIconSize 0
+hide circle
+
+class Webページ {
+ -ユーザID
+ -パスワード
+ -名前
+ -学校名
+ -所属名
+ -メールアドレス
+ -電話番号
+
+ +登録()
+ +変更()
+ +情報の参照()
+ +情報の削除()
+}
+
+@enduml
