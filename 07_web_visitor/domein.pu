@@ -8,6 +8,7 @@ skinparam componentStyle rectangle
 [ユーザ] o-- [所属名]
 [ユーザ] o-- [メールアドレス]
 [ユーザ] o-- [電話番号]
+[ユーザ] o-- [年齢]
 
 [Webページ] o-- [ユーザ]
 

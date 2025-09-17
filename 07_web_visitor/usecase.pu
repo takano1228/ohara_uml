@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+actor "ユーザー" as fc
+rectangle 訪問者システム {
+  usecase "登録する" as UC1
+  usecase "自分と他の人の情報を参照する" as UC2
+  usecase "情報を変更できる" as UC3
+  usecase "情報を削除できる" as UC4
+  usecase "ログインする" as UC5
+  usecase "ログアウトする" as UC6
+}
+fc --> UC1
+fc --> UC2
+fc --> UC3
+fc --> UC4
+fc --> UC5
+fc --> UC6
+@enduml
