@@ -1,0 +1,28 @@
+@startuml Robodogユースケース図
+left to right direction
+actor ユーザー as U
+
+rectangle RoboDog {
+  usecase "ログインしてシステムを使える" as UC1
+  usecase "各会議室は会議室名で識別される" as UC2
+  usecase "各ユーザーはユーザーIDで識別される" as UC3
+  usecase "各予約は予約番号で識別される" as UC4
+  usecase "ログインページにユーザーIDを入力する" as UC5
+  usecase "ログアウトを行い、ログインページを表示" as UC6
+  usecase "日付を入力し、その日の予約すべての会議室情報を表示する" as UC7
+  usecase "利用日を入力し、その日の予約済みの全会議室を表示" as UC8
+  usecase "自分の予約を取り消す" as UC9
+  usecase "自分の利用時刻を変更する" as UC10
+
+}  
+U --> UC1
+U --> UC2
+U --> UC3
+U --> UC4
+U --> UC5
+U --> UC6
+U --> UC7
+U --> UC8
+U --> UC9
+U --> UC10
+@enduml
