@@ -5,21 +5,19 @@ skinparam controlBackgroundColor  #F8CECC
 skinparam entityBackgroundColor   #DAE8FC
 
 actor ユーザー as A
-boundary 新規登録画面 as B1
-control 新規登録 as C1
+boundary 訪問者システム as B1
+control 訪問者一覧表示 as C1
 entity 訪問者 as E
-boundary 登録完了画面 as B2
-boundary 登録エラー発生画面 as B3
+boundary 訪問者一覧画面 as B2
 
-
-A -> B1: ユーザー情報入力()
+A -> B1: 訪問者一覧をクリック()
 activate A
 activate B1
 
-B1 -> C1: ユーザー情報入力()
-activate C1
 
-C1 -> E: 新規登録()
+B1-> C1: 起動()
+activate C1
+C1 -> E: 訪問者情報一覧取得()
 activate E
 E --> C1:
 deactivate E
@@ -27,7 +25,5 @@ deactivate E
 C1 -> B2: 表示()
 activate B2
 deactivate B2
-C1 -> B3: エラー発生時表示()
-activate B3
 
 @enduml
