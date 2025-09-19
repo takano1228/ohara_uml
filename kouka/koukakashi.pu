@@ -1,23 +1,76 @@
-@startuml kouka_robustness
-actor 利用者
-boundary カウンター
-control 貸出管理
-entity 図書
-entity 会員
-entity 予約
+@startuml 図書館システムシーケンス図
+hide footbox
+skinparam boundaryBackgroundColor #D5E8D4
+skinparam controlBackgroundColor  #F8CECC
+skinparam entityBackgroundColor   #DAE8FC
 
-利用者 -> カウンター : 本・会員証を持参
-カウンター -> 貸出管理 : 貸出依頼
-貸出管理 -> 図書 : 貸出可否確認
-貸出管理 -> 会員 : 貸出上限・制約確認
-貸出管理 --> カウンター : 貸出結果
-カウンター --> 利用者 : 貸出通知
+actor 利用者 as A
+boundary カウンター as B1
+control 貸出管理 as C1
+entity 図書 as E1
+entity 会員 as E2
+entity 予約 as E3
 
-利用者 -> カウンター : 返却本持参
-カウンター -> 貸出管理 : 返却依頼
-貸出管理 -> 図書 : 返却処理
-貸出管理 -> 予約 : 予約者確認
-貸出管理 -> 会員 : 予約者へ通知
-貸出管理 --> カウンター : 返却結果
-カウンター --> 利用者 : 返却通知
+' 利用者 -> カウンター : 本・会員証を持参
+' カウンター -> 貸出管理 : 貸出依頼
+' 貸出管理 -> 図書 : 貸出可否確認
+' 貸出管理 -> 会員 : 貸出上限・制約確認
+' 貸出管理 --> カウンター : 貸出結果
+' カウンター --> 利用者 : 貸出通知
+
+' 利用者 -> カウンター : 返却本持参
+' カウンター -> 貸出管理 : 返却依頼
+' 貸出管理 -> 図書 : 返却処理
+' 貸出管理 -> 予約 : 予約者確認
+' 貸出管理 -> 会員 : 予約者へ通知
+' 貸出管理 --> カウンター : 返却結果
+' カウンター --> 利用者 : 返却通知
+
+A -> B1: 本・会員証を持参()
+activate A
+activate B1
+
+B1 -> C1: 貸出依頼()
+activate C1
+
+C1 -> E1: 貸出可否確認()
+activate E1
+deactivate E1
+
+C1 -> E2:貸出上限・制約確認()
+activate E2
+deactivate E2
+
+C1 --> B1: 貸出結果()
+deactivate C1
+B1 -> A: 返却通知()
+deactivate A
+deactivate B1
+
+A -> B1: 返却本持参()
+activate A
+activate B1
+
+B1 -> C1: 返却依頼()
+activate C1
+
+
+C1 -> E1: 返却処理()
+activate E1
+
+C1 -> E3: 予約者確認()
+activate E3
+E3 --> C1
+deactivate E3
+C1 -> E2: 予約者に通知()
+activate E2
+deactivate E2
+deactivate E1
+
+C1 -> B1:返却結果()
+deactivate C1
+B1 -> A:返却通知()
+deactivate B1
+deactivate A
+
 @enduml
