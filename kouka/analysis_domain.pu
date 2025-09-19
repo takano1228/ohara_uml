@@ -1,0 +1,23 @@
+@startuml analysis_domain_model
+entity "利用者" as User {
+  会員証
+}
+entity "図書" as Book {
+}
+entity "会員" as Member {
+  貸出上限冊数
+}
+entity "予約" as Reserve {
+}
+entity "貸出管理" as LendingManager {
+}
+entity "カウンター" as Counter {
+}
+
+User -- Counter : 本・会員証を持参
+Counter -- LendingManager : 貸出・返却依頼
+LendingManager -- Book : 貸出可否・返却処理
+LendingManager -- Member : 上限・制約確認／通知
+LendingManager -- Reserve : 予約者確認
+
+@enduml

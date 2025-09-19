@@ -1,0 +1,32 @@
+
+@startuml kouka_class
+skinparam classAttributeIconSize 0
+hide circle
+
+class 図書館 {}
+class 利用者 {
+	会員番号
+}
+class 学生 {}
+class 教職員 {}
+class 会員 {}
+class 本 {
+	管理番号
+	書名
+	種別（書籍・雑誌）
+}
+class 貸出予約 {}
+class 貸出履歴 {}
+class 貸出通知 {}
+
+利用者 <|-- 学生
+利用者 <|-- 教職員
+利用者 <|-- 会員
+図書館 "1" -- "*" 本 : 保有
+利用者 "1" -- "*" 貸出予約 : 予約
+利用者 "1" -- "*" 貸出履歴 : 履歴
+貸出予約 "*" -- "1" 本 : 予約対象
+貸出履歴 "*" -- "1" 本 : 履歴対象
+利用者 "1" -- "*" 貸出通知 : 通知
+
+@enduml
