@@ -5,17 +5,17 @@ skinparam controlBackgroundColor  #F8CECC
 skinparam entityBackgroundColor   #DAE8FC
 
 actor 利用者 as A
-boundary カウンター as B1
+actor 事務員 as B
+boundary カウンター as B
 control 貸出管理 as C1
 entity 図書 as E1
 entity 会員 as E2
 entity 予約 as E3
 
-A -> B1: 本・会員証を持参()
+A -> B: 本・会員証を持参()
 activate A
-activate B1
-
-B1 -> C1: 貸出依頼()
+activate B
+B -> C1: 貸出依頼()
 activate C1
 
 C1 -> E1: 貸出可否確認()
@@ -26,17 +26,17 @@ C1 -> E2:貸出上限・制約確認()
 activate E2
 deactivate E2
 
-C1 --> B1: 貸出結果()
+C1 -> B: 貸出結果()
 deactivate C1
-B1 -> A: 返却通知()
+B -> A: 返却通知()
 deactivate A
-deactivate B1
+deactivate B
 
-A -> B1: 返却本持参()
+A -> B: 返却本持参()
 activate A
-activate B1
+activate B
 
-B1 -> C1: 返却依頼()
+B -> C1: 返却依頼()
 activate C1
 
 
@@ -50,12 +50,14 @@ deactivate E3
 C1 -> E2: 予約者に通知()
 activate E2
 deactivate E2
+
+E1 -> C1: 処理結果()
 deactivate E1
 
-C1 -> B1:返却結果()
+C1 -> B:返却結果()
 deactivate C1
-B1 -> A:返却通知()
-deactivate B1
+B -> A:返却通知()
+deactivate B
 deactivate A
 
 @enduml
