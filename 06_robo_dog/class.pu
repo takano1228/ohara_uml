@@ -12,6 +12,7 @@ class RoboDog {
 -secondValue: int
 -result: int
  
+' 返り値: void → 何も値を返さない
 +getMyName(): String
 +setMyName(): int
 +setNewTime(): viod
