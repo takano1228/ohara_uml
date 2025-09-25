@@ -1,15 +1,14 @@
 <html>
 <head><meta charset="utf-8"><title>名前の保存（半角英数字のみ）</title></head>
 <body>
-    <form method="POST"></form>
-    <h1>足し算</h1>
-    <label>1つ目の整数</label>
-    <input type="int" name="a">
-    <label>2つ目の整数</label>
-    <input type="int" name="b">
-        <input type="submit" value="保存">
+    <form action="/add" method="get">
+        <input type="number" name="a" required>
+        +
+        <input type="number" name="b" required>
+        <button type="submit">計算</button>
     </form>
-    <p>計算結果: {calc}</p>
+
+    <p>結果は {result} です。</p>
     <p><a href="/">メインメニューに戻る</a></p>
 </body>
 </html>
