@@ -2,19 +2,13 @@ from wsgiref.simple_server import make_server
 from controllers.robodog_menu import robodog_menu
 from controllers.change_my_name_data import change_my_name_data
 from controllers.greet_with_time import greet_with_time
-from controllers.addnumbers import addnumbres
-from urllib.parse import parse_qs
-from controllers.addnumbers import addnumbres
-from utils import render_template
-
-
+from controllers.add_numbers import add_numbers
 
 
 def application(environ, start_response):
     path = environ.get("PATH_INFO", "/")
     method = environ["REQUEST_METHOD"]
     headers = [("Content-Type", "text/html; charset=utf-8")]
-
 
     if path == "/":
         body = robodog_menu()
@@ -26,17 +20,7 @@ def application(environ, start_response):
         body = greet_with_time()
 
     elif path == "/calc":
-        body = render_template("boundaries/addnumbers_form.html")
-    elif path == "/add":
-        # クエリパラメータを取得
-        query = parse_qs(environ.get("QUERY_STRING", ""))
-        try:
-            a = int(query.get("a", ["0"])[0])
-            b = int(query.get("b", ["0"])[0])
-            body = addnumbres(a, b)
-        except ValueError:
-            body = "整数を入力してください"
-
+        body = add_numbers(environ)
 
     else:
         start_response("404 Not Found", headers)
