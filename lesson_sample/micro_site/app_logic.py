@@ -60,3 +60,12 @@ def set_second_value(second_value) -> None:
     data['second_value'] = second_value
     with open(ROBODOG_FILE, 'w', encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+def get_addition() -> int:
+    """足し算の結果を返す"""
+    with open(ROBODOG_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    addition=data['first_value']+['second_value']
+
+    return addition
