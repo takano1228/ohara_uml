@@ -1,0 +1,44 @@
+@startuml
+
+class 商品 {
+   商品コード: String
+   商品名: String
+   在庫数: int
+}
+
+class 顧客 {
+   ユーザ名: String
+   メールアドレス: String
+   電話番号: String
+   住所: String
+   クレジット情報: String
+}
+
+class 注文 {
+   注文ID: String
+   注文日: Date
+   状況: String
+   配達到着日予想: Date
+   配達完了連絡: Boolean
+}
+
+class 返品 {
+   返品ID: String
+   返品申請日: Date
+   返金状況: String
+}
+
+class クレジットカード {
+   カード番号: String
+   有効期限: String
+   残高: int
+}
+
+
+顧客   注文 : 注文する
+注文   商品 : 注文商品
+注文   返品 : 返品申請
+顧客  クレジットカード : 支払い
+顧客  Webサイト : 利用
+
+@enduml
