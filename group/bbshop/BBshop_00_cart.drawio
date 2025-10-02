@@ -1,317 +1,371 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
   <diagram id="ANdWkd6W_-eSAFmmkUrn" name="ページ1">
-    <mxGraphModel dx="3176" dy="2178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3026" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="170" y="130" width="30" height="60" as="geometry" />
+        <mxCell id="2" value="顧客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="230" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fLFc9Rq7rTh69YuVdaS5-2" value="商品一覧画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="30" width="100" height="80" as="geometry" />
+        <mxCell id="fLFc9Rq7rTh69YuVdaS5-2" value="商品一覧画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="130" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fLFc9Rq7rTh69YuVdaS5-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.003;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="fLFc9Rq7rTh69YuVdaS5-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="140" as="sourcePoint" />
-            <mxPoint x="440" y="220" as="targetPoint" />
+            <mxPoint x="-710" y="240" as="sourcePoint" />
+            <mxPoint x="-480" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fLFc9Rq7rTh69YuVdaS5-4" value="在庫なし" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="-80" width="80" height="26" as="geometry" />
+        <mxCell id="fLFc9Rq7rTh69YuVdaS5-4" value="在庫がない商品は&lt;div&gt;「品切れ」&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;と表示する&lt;/span&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="150" width="206" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fLFc9Rq7rTh69YuVdaS5-5" value="在庫あり" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="50" width="70" height="80" as="geometry" />
+        <mxCell id="fLFc9Rq7rTh69YuVdaS5-5" value="在庫あり" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-424" y="130" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fLFc9Rq7rTh69YuVdaS5-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.195;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.994;exitY=0.454;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="fLFc9Rq7rTh69YuVdaS5-2" target="fLFc9Rq7rTh69YuVdaS5-5" edge="1">
+        <mxCell id="fLFc9Rq7rTh69YuVdaS5-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.039;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.994;exitY=0.454;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="fLFc9Rq7rTh69YuVdaS5-2" target="fLFc9Rq7rTh69YuVdaS5-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="110" as="sourcePoint" />
-            <mxPoint x="470" y="48" as="targetPoint" />
+            <mxPoint x="-520" y="210" as="sourcePoint" />
+            <mxPoint x="-450" y="148" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fLFc9Rq7rTh69YuVdaS5-10" value="カートに追加" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="120" width="70" height="80" as="geometry" />
+        <mxCell id="fLFc9Rq7rTh69YuVdaS5-10" value="カートに追加" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-541" y="260" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fLFc9Rq7rTh69YuVdaS5-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.062;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.443;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="fLFc9Rq7rTh69YuVdaS5-5" target="fLFc9Rq7rTh69YuVdaS5-10" edge="1">
+        <mxCell id="fLFc9Rq7rTh69YuVdaS5-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.062;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.043;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="phrofWDE5Bf0zCj28m_p-32" target="fLFc9Rq7rTh69YuVdaS5-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="240" as="sourcePoint" />
-            <mxPoint x="420" y="188" as="targetPoint" />
+            <mxPoint x="-450" y="284" as="sourcePoint" />
+            <mxPoint x="-500" y="288" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fLFc9Rq7rTh69YuVdaS5-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.014;exitY=0.642;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.338;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fLFc9Rq7rTh69YuVdaS5-10" edge="1">
+        <mxCell id="NOrOfdFADR_ExNrIXl33-63" value="表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-716" y="390" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NOrOfdFADR_ExNrIXl33-64" value="カート画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-760" y="510" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NOrOfdFADR_ExNrIXl33-65" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.713;entryY=0.046;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NOrOfdFADR_ExNrIXl33-63" target="NOrOfdFADR_ExNrIXl33-64" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="334.36" y="250" as="sourcePoint" />
-            <mxPoint x="380" y="273.0400000000001" as="targetPoint" />
+            <mxPoint x="-310.40999999999997" y="828.2" as="sourcePoint" />
+            <mxPoint x="-307.40999999999997" y="890.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-56" value="カート画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="200" width="100" height="80" as="geometry" />
+        <mxCell id="NOrOfdFADR_ExNrIXl33-118" value="データベース&lt;div&gt;（Cookie）&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-541" y="390" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.749;exitY=0.985;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.324;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fLFc9Rq7rTh69YuVdaS5-10" target="NOrOfdFADR_ExNrIXl33-56">
+        <mxCell id="NOrOfdFADR_ExNrIXl33-119" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.008;entryY=0.633;entryDx=0;entryDy=0;exitX=0.967;exitY=0.692;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="NOrOfdFADR_ExNrIXl33-63" target="NOrOfdFADR_ExNrIXl33-118" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510.51" y="279.64" as="sourcePoint" />
-            <mxPoint x="489.51" y="321.64" as="targetPoint" />
+            <mxPoint x="-686" y="460" as="sourcePoint" />
+            <mxPoint x="-533.5999999999999" y="436.79999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-58" value="数量変更" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="318.64" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.286;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NOrOfdFADR_ExNrIXl33-56" target="NOrOfdFADR_ExNrIXl33-58">
+        <mxCell id="3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.871;entryY=0.213;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fLFc9Rq7rTh69YuVdaS5-10" target="CSD10AK-G4HO-78-sdya-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="539.5699999999999" y="373.8" as="sourcePoint" />
-            <mxPoint x="559.5699999999999" y="429.8" as="targetPoint" />
+            <mxPoint x="-886.4300000000001" y="360.2" as="sourcePoint" />
+            <mxPoint x="-596" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-60" value="再計算" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="330" width="70" height="80" as="geometry" />
+        <mxCell id="6" value="ログイン画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-746" y="850" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.056;exitY=0.607;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.957;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NOrOfdFADR_ExNrIXl33-58" target="NOrOfdFADR_ExNrIXl33-60">
+        <mxCell id="7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.724;exitY=0.937;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.025;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="phrofWDE5Bf0zCj28m_p-104" target="6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="500" as="sourcePoint" />
-            <mxPoint x="570" y="550" as="targetPoint" />
+            <mxPoint x="-667.9000000000001" y="1027.6" as="sourcePoint" />
+            <mxPoint x="-470.20000000000005" y="1131" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.937;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="NOrOfdFADR_ExNrIXl33-63" parent="1" source="NOrOfdFADR_ExNrIXl33-60">
+        <mxCell id="10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.022;exitY=0.56;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.014;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6" edge="1" target="11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="551" y="633" as="sourcePoint" />
-            <mxPoint x="570" y="686" as="targetPoint" />
+            <mxPoint x="-320.99" y="1031.1599999999999" as="sourcePoint" />
+            <mxPoint x="-410" y="1024.3600000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-63" value="表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="340" width="70" height="80" as="geometry" />
+        <mxCell id="11" value="認証成功" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-590" y="840" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-64" value="カート画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="468.64" width="100" height="80" as="geometry" />
+        <mxCell id="12" value="データベース" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-250" y="850" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.013;exitY=0.587;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.699;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NOrOfdFADR_ExNrIXl33-63" target="NOrOfdFADR_ExNrIXl33-64">
+        <mxCell id="13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.987;exitY=0.587;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="11" target="12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="609.59" y="728.2" as="sourcePoint" />
-            <mxPoint x="612.59" y="790.2" as="targetPoint" />
+            <mxPoint x="-390" y="1080" as="sourcePoint" />
+            <mxPoint x="-435.59000000000015" y="1101.3600000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-68" value="カート画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-750" y="438.64" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-69" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.967;entryY=0.554;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-71" target="NOrOfdFADR_ExNrIXl33-70" parent="1">
+        <mxCell id="CSD10AK-G4HO-78-sdya-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.852;entryY=0.304;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CSD10AK-G4HO-78-sdya-17" target="NOrOfdFADR_ExNrIXl33-63" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-550" y="528.32" as="sourcePoint" />
-            <mxPoint x="-687.7" y="488.96" as="targetPoint" />
+            <mxPoint x="-991.4300000000001" y="400.2" as="sourcePoint" />
+            <mxPoint x="-701" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-70" value="表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="368.64" width="70" height="80" as="geometry" />
+        <mxCell id="CSD10AK-G4HO-78-sdya-17" value="合計金額&lt;div&gt;計算&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="310" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-71" value="金額合計" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="334.64" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.043;exitY=0.646;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-70" target="NOrOfdFADR_ExNrIXl33-68" parent="1">
+        <mxCell id="CSD10AK-G4HO-78-sdya-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.047;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NOrOfdFADR_ExNrIXl33-64" target="CSD10AK-G4HO-78-sdya-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-559.02" y="396" as="sourcePoint" />
-            <mxPoint x="-860" y="394.64" as="targetPoint" />
+            <mxPoint x="-684.9999999999999" y="649" as="sourcePoint" />
+            <mxPoint x="-554.5999999999998" y="655.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-73" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.454;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.993;exitY=0.579;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-68" target="NOrOfdFADR_ExNrIXl33-74" parent="1">
+        <mxCell id="CSD10AK-G4HO-78-sdya-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.01;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.933;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CSD10AK-G4HO-78-sdya-20" target="14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-620" y="516.64" as="sourcePoint" />
-            <mxPoint x="-497.74999999999994" y="548.64" as="targetPoint" />
+            <mxPoint x="-719.41" y="1383" as="sourcePoint" />
+            <mxPoint x="-650" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-74" value="数量変更" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="468.64" width="70" height="80" as="geometry" />
+        <mxCell id="CSD10AK-G4HO-78-sdya-20" value="再計算" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-510" y="630" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-75" value="再計算" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-470" y="478.64" width="70" height="80" as="geometry" />
+        <mxCell id="CSD10AK-G4HO-78-sdya-21" value="数量修正" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-404.9999999999999" y="585" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-76" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.454;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.579;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-74" target="NOrOfdFADR_ExNrIXl33-75" parent="1">
+        <mxCell id="CSD10AK-G4HO-78-sdya-22" value="数量変更" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-575.9999999999999" y="565" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CSD10AK-G4HO-78-sdya-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.981;exitY=0.783;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.433;entryY=0.071;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CSD10AK-G4HO-78-sdya-22" target="CSD10AK-G4HO-78-sdya-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-506.6400000000001" y="497.67999999999995" as="sourcePoint" />
-            <mxPoint x="-337.74999999999994" y="558.64" as="targetPoint" />
+            <mxPoint x="-269.9999999999999" y="890" as="sourcePoint" />
+            <mxPoint x="-309.9999999999999" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-77" value="表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-476" y="593.64" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.543;entryY=0.163;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.438;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-75" target="NOrOfdFADR_ExNrIXl33-77" parent="1">
+        <mxCell id="CSD10AK-G4HO-78-sdya-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.033;exitY=0.646;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.957;entryY=0.646;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CSD10AK-G4HO-78-sdya-21" target="CSD10AK-G4HO-78-sdya-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-516" y="564.64" as="sourcePoint" />
-            <mxPoint x="-693.7" y="658.9599999999999" as="targetPoint" />
+            <mxPoint x="14.410000000000082" y="720" as="sourcePoint" />
+            <mxPoint x="-25.589999999999918" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-79" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.043;exitY=0.646;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-77" target="NOrOfdFADR_ExNrIXl33-80" parent="1">
+        <mxCell id="14" value="表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-600" y="655" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="カート画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="680" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.98;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.01;exitY=0.692;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="14" target="15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-565.02" y="566" as="sourcePoint" />
-            <mxPoint x="-866" y="564.64" as="targetPoint" />
+            <mxPoint x="-530" y="770" as="sourcePoint" />
+            <mxPoint x="-585" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-80" value="カート画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-620" y="608.64" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.438;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-82" target="NOrOfdFADR_ExNrIXl33-84" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.571;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="phrofWDE5Bf0zCj28m_p-18" parent="1" source="14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-796" y="694.64" as="sourcePoint" />
-            <mxPoint x="-702.1874958277249" y="748.7182011440206" as="targetPoint" />
+            <mxPoint x="-440" y="790" as="sourcePoint" />
+            <mxPoint x="-814.49" y="1228.3600000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-82" value="未ログイン時" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="548.64" width="70" height="80" as="geometry" />
+        <mxCell id="phrofWDE5Bf0zCj28m_p-18" value="データベース&lt;div&gt;(Cookie)&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-551" y="750" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-83" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.543;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.493;exitY=1.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-68" target="NOrOfdFADR_ExNrIXl33-82" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.943;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="phrofWDE5Bf0zCj28m_p-30" parent="1" source="NOrOfdFADR_ExNrIXl33-64">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-700.33" y="547.64" as="sourcePoint" />
-            <mxPoint x="-699.33" y="593.64" as="targetPoint" />
+            <mxPoint x="-250" y="474" as="sourcePoint" />
+            <mxPoint x="-169.5999999999998" y="565.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-84" value="ログイン画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-705" y="688.64" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-85" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.593;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-80" target="NOrOfdFADR_ExNrIXl33-86" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.787;exitY=0.968;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.605;entryY=0.121;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-30" target="CSD10AK-G4HO-78-sdya-21" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-496.70000000000005" y="732.92" as="sourcePoint" />
-            <mxPoint x="-619.94" y="850.5600000000001" as="targetPoint" />
+            <mxPoint x="115" y="800" as="sourcePoint" />
+            <mxPoint x="-234.69000000000005" y="495.67999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-86" value="ログイン時" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-605" y="758.6400000000001" width="70" height="80" as="geometry" />
+        <mxCell id="phrofWDE5Bf0zCj28m_p-30" value="商品削除" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-419.9999999999999" y="470" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-87" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.186;exitY=0.938;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-86" target="NOrOfdFADR_ExNrIXl33-88" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.51;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.481;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="phrofWDE5Bf0zCj28m_p-32" parent="1" source="fLFc9Rq7rTh69YuVdaS5-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-594" y="860.5600000000001" as="sourcePoint" />
-            <mxPoint x="-592.1874958277249" y="893.6382011440206" as="targetPoint" />
+            <mxPoint x="-324" y="334" as="sourcePoint" />
+            <mxPoint x="-374" y="338" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-88" value="決済画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="893.5600000000001" width="100" height="80" as="geometry" />
+        <mxCell id="phrofWDE5Bf0zCj28m_p-32" value="カート制御" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="250" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-89" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.543;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-80" target="NOrOfdFADR_ExNrIXl33-90" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-34" value="顧客が「０」を入力した場合&lt;div&gt;削除扱いにする&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-611" y="540" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-35" value="同じ商品がすでにカート内にある場合、&lt;div&gt;数量を加算する&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="730" width="224" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-41" value="カート内情報を保存&lt;div&gt;６０分以上カートに入れっぱなしの商品は破棄される&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="415" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-42" value="&lt;div&gt;未ログイン時にカートに入れた商品情報は、&lt;/div&gt;ログインした際にデータベース継承" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="850" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-68" value="顧客" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1415" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-69" value="商品一覧画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1305" y="140" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.003;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="phrofWDE5Bf0zCj28m_p-69" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-479.29999999999995" y="731.64" as="sourcePoint" />
-            <mxPoint x="-479.33" y="835.5600000000001" as="targetPoint" />
+            <mxPoint x="-1375" y="250" as="sourcePoint" />
+            <mxPoint x="-1145" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-90" value="未ログイン時" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-491" y="728.6400000000001" width="70" height="80" as="geometry" />
+        <mxCell id="phrofWDE5Bf0zCj28m_p-71" value="ログイン時" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1400" y="170" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-91" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.438;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-90" target="NOrOfdFADR_ExNrIXl33-94" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-72" value="在庫あり" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="150" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-73" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.025;entryY=0.404;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.994;exitY=0.454;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-69" target="phrofWDE5Bf0zCj28m_p-72" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-576" y="936.5600000000001" as="sourcePoint" />
-            <mxPoint x="-482.1874958277249" y="990.6382011440206" as="targetPoint" />
+            <mxPoint x="-1185" y="220" as="sourcePoint" />
+            <mxPoint x="-1115" y="158" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-92" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.285;exitY=0.952;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-82" target="NOrOfdFADR_ExNrIXl33-95" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-74" value="カートに追加" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1215" y="280" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-75" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.062;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.043;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-100" target="phrofWDE5Bf0zCj28m_p-74" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-770.03" y="750.64" as="sourcePoint" />
-            <mxPoint x="-720" y="768.64" as="targetPoint" />
+            <mxPoint x="-1115" y="294" as="sourcePoint" />
+            <mxPoint x="-1165" y="298" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-93" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.014;exitY=0.642;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.338;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="NOrOfdFADR_ExNrIXl33-71" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-76" value="表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1381" y="400" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-77" value="カート画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1405" y="530" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.713;entryY=0.046;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-76" target="phrofWDE5Bf0zCj28m_p-77" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-419" y="319.64" as="sourcePoint" />
-            <mxPoint x="-520" y="418.64" as="targetPoint" />
+            <mxPoint x="-975.4099999999999" y="838.2" as="sourcePoint" />
+            <mxPoint x="-972.4099999999999" y="900.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-94" value="ログイン画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-470" y="868.6400000000001" width="100" height="80" as="geometry" />
+        <mxCell id="phrofWDE5Bf0zCj28m_p-79" value="データベース" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1206" y="400" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-95" value="データベース" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="768.64" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-96" value="ログイン時" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-860" y="788.64" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.307;exitY=0.938;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-68" target="NOrOfdFADR_ExNrIXl33-96" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.008;entryY=0.633;entryDx=0;entryDy=0;exitX=0.967;exitY=0.692;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-76" target="phrofWDE5Bf0zCj28m_p-79" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-759.9995081612799" y="463.62" as="sourcePoint" />
-            <mxPoint x="-839.94" y="608.64" as="targetPoint" />
+            <mxPoint x="-1351" y="470" as="sourcePoint" />
+            <mxPoint x="-1198.6" y="446.79999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-98" value="データベース" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1010" y="813.56" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-99" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.065;exitY=0.58;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-96" target="NOrOfdFADR_ExNrIXl33-98" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-81" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.871;entryY=0.213;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-74" target="phrofWDE5Bf0zCj28m_p-83" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-920.3" y="468.32" as="sourcePoint" />
-            <mxPoint x="-916.3" y="595.32" as="targetPoint" />
+            <mxPoint x="-1551.43" y="370.2" as="sourcePoint" />
+            <mxPoint x="-1261" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-100" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.186;exitY=0.938;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="NOrOfdFADR_ExNrIXl33-96" target="NOrOfdFADR_ExNrIXl33-101" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-82" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.852;entryY=0.304;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-83" target="phrofWDE5Bf0zCj28m_p-76" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-814" y="618.64" as="sourcePoint" />
-            <mxPoint x="-812.1874958277249" y="651.7182011440206" as="targetPoint" />
+            <mxPoint x="-1656.43" y="410.2" as="sourcePoint" />
+            <mxPoint x="-1366" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-101" value="決済画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="928.6400000000001" width="100" height="80" as="geometry" />
+        <mxCell id="phrofWDE5Bf0zCj28m_p-83" value="合計金額&lt;div&gt;計算&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1311" y="330" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-102" value="未ログイン時" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="478.64" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-103" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.58;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.04;entryY=0.542;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="NOrOfdFADR_ExNrIXl33-102" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-84" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.047;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-77" target="phrofWDE5Bf0zCj28m_p-88" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="515.0400000000004" as="sourcePoint" />
-            <mxPoint x="328.36999999999995" y="749.8000000000001" as="targetPoint" />
+            <mxPoint x="-1350" y="659" as="sourcePoint" />
+            <mxPoint x="-1219.6" y="665.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-104" value="ログイン画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="478.64" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-105" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.03;exitY=0.595;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.025;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NOrOfdFADR_ExNrIXl33-102" target="NOrOfdFADR_ExNrIXl33-104">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-85" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.01;exitY=0.633;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.933;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-86" target="phrofWDE5Bf0zCj28m_p-91" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="442.8" y="632.64" as="sourcePoint" />
-            <mxPoint x="519.8" y="629.64" as="targetPoint" />
+            <mxPoint x="-1384.4099999999999" y="1393" as="sourcePoint" />
+            <mxPoint x="-1315" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-106" value="ログイン済" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="55" y="593.64" width="70" height="80" as="geometry" />
+        <mxCell id="phrofWDE5Bf0zCj28m_p-86" value="再計算" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1206" y="670" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-107" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.467;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="NOrOfdFADR_ExNrIXl33-106">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-87" value="数量修正" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1105" y="655" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-88" value="数量変更" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1241" y="590" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-89" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.981;exitY=0.783;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.433;entryY=0.071;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-88" target="phrofWDE5Bf0zCj28m_p-87" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="89.06439854192013" y="548.6400000000003" as="sourcePoint" />
-            <mxPoint x="250.07" y="813.56" as="targetPoint" />
+            <mxPoint x="-935" y="900" as="sourcePoint" />
+            <mxPoint x="-975" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-108" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.937;exitY=0.846;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.355;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NOrOfdFADR_ExNrIXl33-102" target="NOrOfdFADR_ExNrIXl33-109">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.033;exitY=0.646;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.957;entryY=0.646;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-87" target="phrofWDE5Bf0zCj28m_p-86" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="319.9" y="590.6" as="sourcePoint" />
-            <mxPoint x="380" y="600" as="targetPoint" />
+            <mxPoint x="-650.5899999999999" y="730" as="sourcePoint" />
+            <mxPoint x="-690.5899999999999" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-109" value="データベース（Cookie）" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="374" y="593.64" width="80" height="80" as="geometry" />
+        <mxCell id="phrofWDE5Bf0zCj28m_p-91" value="表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1315" y="690" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-113" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.022;exitY=0.56;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NOrOfdFADR_ExNrIXl33-104">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-92" value="カート画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1450" y="710" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-93" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.98;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.01;exitY=0.692;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-91" target="phrofWDE5Bf0zCj28m_p-92" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="669.01" y="529.8" as="sourcePoint" />
-            <mxPoint x="580" y="523" as="targetPoint" />
+            <mxPoint x="-1195" y="780" as="sourcePoint" />
+            <mxPoint x="-1250" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-114" value="認証成功" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="478.64" width="70" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-116" value="データベース" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="548.41" y="593.64" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-117" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.937;exitY=0.846;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.355;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="NOrOfdFADR_ExNrIXl33-116" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-94" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.571;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-91" target="phrofWDE5Bf0zCj28m_p-95" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490.40999999999997" y="546" as="sourcePoint" />
-            <mxPoint x="554.41" y="600" as="targetPoint" />
+            <mxPoint x="-1105" y="800" as="sourcePoint" />
+            <mxPoint x="-1479.49" y="1238.3600000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-118" value="データベース" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="750" width="80" height="80" as="geometry" />
+        <mxCell id="phrofWDE5Bf0zCj28m_p-95" value="データベース" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="820" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-119" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.675;exitY=0.92;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.355;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="NOrOfdFADR_ExNrIXl33-118" parent="1">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-96" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.943;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-77" target="phrofWDE5Bf0zCj28m_p-98" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="667.2399999999998" as="sourcePoint" />
-            <mxPoint x="152.16" y="735" as="targetPoint" />
+            <mxPoint x="-915" y="484" as="sourcePoint" />
+            <mxPoint x="-834.5999999999998" y="575.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-120" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.185;exitY=0.968;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NOrOfdFADR_ExNrIXl33-106">
+        <mxCell id="phrofWDE5Bf0zCj28m_p-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.414;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.605;entryY=0.121;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-98" target="phrofWDE5Bf0zCj28m_p-87" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-9.560000000000002" y="700.4399999999998" as="sourcePoint" />
-            <mxPoint x="50" y="770" as="targetPoint" />
+            <mxPoint x="-550" y="810" as="sourcePoint" />
+            <mxPoint x="-899.69" y="505.67999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOrOfdFADR_ExNrIXl33-121" value="決済画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="758.6400000000001" width="100" height="80" as="geometry" />
+        <mxCell id="phrofWDE5Bf0zCj28m_p-98" value="商品削除" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1075" y="510" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-99" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.51;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.481;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="phrofWDE5Bf0zCj28m_p-72" target="phrofWDE5Bf0zCj28m_p-100" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-989" y="344" as="sourcePoint" />
+            <mxPoint x="-1039" y="348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-100" value="カート制御" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1105" y="270" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-101" value="顧客が「０」を入力した場合&lt;div&gt;削除扱いにする&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="555" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-102" value="同じ商品がすでにカート内にある場合、&lt;div&gt;数量を加算する&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="740" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-103" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.657;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.308;exitY=0.849;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="phrofWDE5Bf0zCj28m_p-104" parent="1" source="15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-692.6999999999998" y="809.9999999999999" as="sourcePoint" />
+            <mxPoint x="-725" y="848.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-104" value="決済" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="710" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-105" value="在庫数を超える数量が入力された場合&lt;div&gt;上限数に修正する&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1415" y="640" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-108" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.429;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.341;exitY=0.96;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NOrOfdFADR_ExNrIXl33-64" target="phrofWDE5Bf0zCj28m_p-104">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-800.1800000000001" y="645.44" as="sourcePoint" />
+            <mxPoint x="-793.1800000000001" y="699.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-109" value="未ログイン時" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="170" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="phrofWDE5Bf0zCj28m_p-110" value="在庫がない商品は&lt;div&gt;「品切れ」&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;と表示する&lt;/span&gt;&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1163" y="110" width="206" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
