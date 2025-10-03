@@ -1,0 +1,69 @@
+@startuml
+actor Customer
+participant ProductDetailScreen
+participant LoginCheck
+participant StockCheck
+participant AddToCart
+
+participant TotalAmount
+participant Cart
+participant AddCompleteScreen
+participant ErrorMessage
+
+Customer -> ProductDetailScreen : 「カートに追加する」選択
+activate ProductDetailScreen
+
+ProductDetailScreen -> LoginCheck : ログイン状態確認()
+activate LoginCheck
+LoginCheck --> ProductDetailScreen : ログイン状態
+deactivate LoginCheck
+
+alt 未ログイン
+    ProductDetailScreen -> Login : ログイン画面表示()
+    ' deactivate ProductDetailScreen
+else ログイン済み
+    ProductDetailScreen -> StockCheck : 在庫確認()
+    deactivate ProductDetailScreen
+    activate StockCheck
+    StockCheck -> merchandise : 在庫情報取得()
+    activate merchandise
+    merchandise --> StockCheck : 在庫情報
+    deactivate merchandise
+    else 在庫なし
+    StockCheck -> ErrorMessage : 「在庫がありません」表示()
+    activate ErrorMessage
+        ErrorMessage --> Customer : ErrorMessage
+        deactivate ErrorMessage
+    
+
+    alt 在庫あり
+        StockCheck -> AddToCart : カート追加リクエスト()
+        activate AddToCart
+        AddToCart -> AddCompleteScreen : カートに商品追加()
+        activate AddCompleteScreen
+        AddCompleteScreen --> AddToCart
+        deactivate AddCompleteScreen
+
+        AddToCart -> TotalAmount : 合計金額計算()
+        deactivate AddToCart
+        activate TotalAmount
+        TotalAmount -> AddCompleteScreen : カート情報取得()
+        activate AddCompleteScreen
+        AddCompleteScreen --> TotalAmount
+        deactivate AddCompleteScreen
+
+        ' TotalAmount --> AddToCart : 合計金額
+        ' deactivate TotalAmount
+
+        ' AddToCart --> StockCheck : 追加完了
+        ' deactivate AddToCart
+
+        TotalAmount -> AddCompleteScreen : AddCompleteScreen表示(合計金額)()
+        deactivate TotalAmount
+        activate AddCompleteScreen
+        AddCompleteScreen --> Customer : AddCompleteScreen表示
+        deactivate AddCompleteScreen
+        ' deactivate StockCheck
+        deactivate ProductDetailScreen
+end
+@enduml
